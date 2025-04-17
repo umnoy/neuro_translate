@@ -1,0 +1,8 @@
+C:/importantpapka/translator/build/CMakeFiles/edit_cache.dir
+C:/importantpapka/translator/build/CMakeFiles/rebuild_cache.dir
+C:/importantpapka/translator/build/src/CMakeFiles/translator.dir
+C:/importantpapka/translator/build/src/CMakeFiles/translator_app.dir
+C:/importantpapka/translator/build/src/CMakeFiles/edit_cache.dir
+C:/importantpapka/translator/build/src/CMakeFiles/rebuild_cache.dir
+C:/importantpapka/translator/build/test/CMakeFiles/edit_cache.dir
+C:/importantpapka/translator/build/test/CMakeFiles/rebuild_cache.dir
