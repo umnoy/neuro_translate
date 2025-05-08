@@ -10,6 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/mingw64/share/cmake-3.30/Modules/CMakeCInformation.cmake"
   "C:/Program Files/mingw64/share/cmake-3.30/Modules/CMakeCXXInformation.cmake"
   "C:/Program Files/mingw64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
+  "C:/Program Files/mingw64/share/cmake-3.30/Modules/CMakeDependentOption.cmake"
   "C:/Program Files/mingw64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake"
   "C:/Program Files/mingw64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake"
   "C:/Program Files/mingw64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
@@ -29,6 +30,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/mingw64/share/cmake-3.30/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/mingw64/share/cmake-3.30/Modules/Platform/Windows.cmake"
   "C:/Program Files/mingw64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake"
+  "C:/Users/ikozl/vcpkg/scripts/buildsystems/vcpkg.cmake"
   "C:/importantpapka/translator/CMakeLists.txt"
   "CMakeFiles/3.30.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.4/CMakeCXXCompiler.cmake"
@@ -47,12 +49,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "external/CMakeFiles/CMakeDirectoryInformation.cmake"
   "test/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "src/CMakeFiles/translator.dir/DependInfo.cmake"
-  "src/CMakeFiles/translator_app.dir/DependInfo.cmake"
+  "external/CMakeFiles/translator.dir/DependInfo.cmake"
+  "external/CMakeFiles/translator_app.dir/DependInfo.cmake"
   )

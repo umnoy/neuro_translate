@@ -8,5 +8,5 @@ if(DEFINED ENV{VCPKG_ROOT})
         CACHE STRING "")
 endif()
 
-add_subdirectory(src)
+add_subdirectory(src external)
 add_subdirectory(test)

@@ -1,4 +1,4 @@
-src/CMakeFiles/translator_app.dir/main.cpp.obj: \
+external/CMakeFiles/translator_app.dir/main.cpp.obj: \
  C:\importantpapka\translator\src\main.cpp \
  C:/msys64/ucrt64/include/c++/14.1.0/iostream \
  C:/msys64/ucrt64/include/c++/14.1.0/bits/requires_hosted.h \
@@ -136,4 +136,22 @@ src/CMakeFiles/translator_app.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.1.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/14.1.0/istream \
  C:/msys64/ucrt64/include/c++/14.1.0/bits/istream.tcc \
- C:\importantpapka\translator\src\translator.hpp
+ C:\importantpapka\translator\src\translator.hpp \
+ C:/msys64/ucrt64/include/c++/14.1.0/unordered_map \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/unordered_map.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/hashtable.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/hashtable_policy.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/ext/aligned_buffer.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/enable_special_members.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/node_handle.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/erase_if.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/sstream \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/sstream.tcc \
+ C:/msys64/ucrt64/include/c++/14.1.0/algorithm \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algo.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/algorithmfwd.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_heap.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/uniform_int_dist.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_tempbuf.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/pstl/glue_algorithm_defs.h \
+ C:/msys64/ucrt64/include/c++/14.1.0/pstl/execution_defs.h

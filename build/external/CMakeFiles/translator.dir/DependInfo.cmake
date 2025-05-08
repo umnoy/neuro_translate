@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/importantpapka/translator/src/main.cpp" "src/CMakeFiles/translator_app.dir/main.cpp.obj" "gcc" "src/CMakeFiles/translator_app.dir/main.cpp.obj.d"
+  "C:/importantpapka/translator/src/translator.cpp" "external/CMakeFiles/translator.dir/translator.cpp.obj" "gcc" "external/CMakeFiles/translator.dir/translator.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

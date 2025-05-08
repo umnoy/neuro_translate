@@ -125,7 +125,7 @@ translator: cmake_check_build_system
 
 # fast build rule for target.
 translator/fast:
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\translator.dir\build.make src/CMakeFiles/translator.dir/build
+	$(MAKE) $(MAKESILENT) -f external\CMakeFiles\translator.dir\build.make external/CMakeFiles/translator.dir/build
 .PHONY : translator/fast
 
 #=============================================================================
@@ -138,7 +138,7 @@ translator_app: cmake_check_build_system
 
 # fast build rule for target.
 translator_app/fast:
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\translator_app.dir\build.make src/CMakeFiles/translator_app.dir/build
+	$(MAKE) $(MAKESILENT) -f external\CMakeFiles\translator_app.dir\build.make external/CMakeFiles/translator_app.dir/build
 .PHONY : translator_app/fast
 
 # Help Target

@@ -1,9 +1,9 @@
 /*
-#include <gtest/gtest.h>
-#include "../src/Translator.h"
+#include <doctest/doctest.h>
+#include "../src/translator.hpp"
 
-TEST(TranslatorTest, BasicTranslation) {
+TEST_CASE("Basic translation") {
     Translator t;
-    EXPECT_EQ(t.translate("привет"), "hello"); // пример, зависит от твоей логики
+    CHECK(t.translate("Привет") == "Hello, World!");
 }
 *\

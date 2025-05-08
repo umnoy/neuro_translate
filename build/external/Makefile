@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\importantpapka\translator\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\importantpapka\translator\build\CMakeFiles C:\importantpapka\translator\build\src\\CMakeFiles\progress.marks
-	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/all
+	cd /d C:\importantpapka\translator\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\importantpapka\translator\build\CMakeFiles C:\importantpapka\translator\build\external\\CMakeFiles\progress.marks
+	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\importantpapka\translator\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/clean
+	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,12 +102,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/preinstall
+	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/preinstall
+	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -116,31 +116,31 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/translator.dir/rule:
-	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/translator.dir/rule
-.PHONY : src/CMakeFiles/translator.dir/rule
+external/CMakeFiles/translator.dir/rule:
+	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/CMakeFiles/translator.dir/rule
+.PHONY : external/CMakeFiles/translator.dir/rule
 
 # Convenience name for target.
-translator: src/CMakeFiles/translator.dir/rule
+translator: external/CMakeFiles/translator.dir/rule
 .PHONY : translator
 
 # fast build rule for target.
 translator/fast:
-	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\translator.dir\build.make src/CMakeFiles/translator.dir/build
+	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\translator.dir\build.make external/CMakeFiles/translator.dir/build
 .PHONY : translator/fast
 
 # Convenience name for target.
-src/CMakeFiles/translator_app.dir/rule:
-	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/translator_app.dir/rule
-.PHONY : src/CMakeFiles/translator_app.dir/rule
+external/CMakeFiles/translator_app.dir/rule:
+	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/CMakeFiles/translator_app.dir/rule
+.PHONY : external/CMakeFiles/translator_app.dir/rule
 
 # Convenience name for target.
-translator_app: src/CMakeFiles/translator_app.dir/rule
+translator_app: external/CMakeFiles/translator_app.dir/rule
 .PHONY : translator_app
 
 # fast build rule for target.
 translator_app/fast:
-	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\translator_app.dir\build.make src/CMakeFiles/translator_app.dir/build
+	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\translator_app.dir\build.make external/CMakeFiles/translator_app.dir/build
 .PHONY : translator_app/fast
 
 main.obj: main.cpp.obj
@@ -148,7 +148,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\translator_app.dir\build.make src/CMakeFiles/translator_app.dir/main.cpp.obj
+	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\translator_app.dir\build.make external/CMakeFiles/translator_app.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -156,7 +156,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\translator_app.dir\build.make src/CMakeFiles/translator_app.dir/main.cpp.i
+	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\translator_app.dir\build.make external/CMakeFiles/translator_app.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -164,7 +164,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\translator_app.dir\build.make src/CMakeFiles/translator_app.dir/main.cpp.s
+	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\translator_app.dir\build.make external/CMakeFiles/translator_app.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 translator.obj: translator.cpp.obj
@@ -172,7 +172,7 @@ translator.obj: translator.cpp.obj
 
 # target to build an object file
 translator.cpp.obj:
-	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\translator.dir\build.make src/CMakeFiles/translator.dir/translator.cpp.obj
+	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\translator.dir\build.make external/CMakeFiles/translator.dir/translator.cpp.obj
 .PHONY : translator.cpp.obj
 
 translator.i: translator.cpp.i
@@ -180,7 +180,7 @@ translator.i: translator.cpp.i
 
 # target to preprocess a source file
 translator.cpp.i:
-	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\translator.dir\build.make src/CMakeFiles/translator.dir/translator.cpp.i
+	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\translator.dir\build.make external/CMakeFiles/translator.dir/translator.cpp.i
 .PHONY : translator.cpp.i
 
 translator.s: translator.cpp.s
@@ -188,7 +188,7 @@ translator.s: translator.cpp.s
 
 # target to generate assembly for a file
 translator.cpp.s:
-	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\translator.dir\build.make src/CMakeFiles/translator.dir/translator.cpp.s
+	cd /d C:\importantpapka\translator\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\translator.dir\build.make external/CMakeFiles/translator.dir/translator.cpp.s
 .PHONY : translator.cpp.s
 
 # Help Target

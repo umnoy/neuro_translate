@@ -62,36 +62,36 @@ CMAKE_BINARY_DIR = C:\importantpapka\translator\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: src/all
+all: external/all
 all: test/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: src/preinstall
+preinstall: external/preinstall
 preinstall: test/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: src/clean
+clean: external/clean
 clean: test/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory src
+# Directory level rules for directory external
 
 # Recursive "all" directory target.
-src/all: src/CMakeFiles/translator.dir/all
-src/all: src/CMakeFiles/translator_app.dir/all
-.PHONY : src/all
+external/all: external/CMakeFiles/translator.dir/all
+external/all: external/CMakeFiles/translator_app.dir/all
+.PHONY : external/all
 
 # Recursive "preinstall" directory target.
-src/preinstall:
-.PHONY : src/preinstall
+external/preinstall:
+.PHONY : external/preinstall
 
 # Recursive "clean" directory target.
-src/clean: src/CMakeFiles/translator.dir/clean
-src/clean: src/CMakeFiles/translator_app.dir/clean
-.PHONY : src/clean
+external/clean: external/CMakeFiles/translator.dir/clean
+external/clean: external/CMakeFiles/translator_app.dir/clean
+.PHONY : external/clean
 
 #=============================================================================
 # Directory level rules for directory test
@@ -109,56 +109,56 @@ test/clean:
 .PHONY : test/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/translator.dir
+# Target rules for target external/CMakeFiles/translator.dir
 
 # All Build rule for target.
-src/CMakeFiles/translator.dir/all:
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\translator.dir\build.make src/CMakeFiles/translator.dir/depend
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\translator.dir\build.make src/CMakeFiles/translator.dir/build
+external/CMakeFiles/translator.dir/all:
+	$(MAKE) $(MAKESILENT) -f external\CMakeFiles\translator.dir\build.make external/CMakeFiles/translator.dir/depend
+	$(MAKE) $(MAKESILENT) -f external\CMakeFiles\translator.dir\build.make external/CMakeFiles/translator.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\importantpapka\translator\build\CMakeFiles --progress-num=1,2 "Built target translator"
-.PHONY : src/CMakeFiles/translator.dir/all
+.PHONY : external/CMakeFiles/translator.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/translator.dir/rule: cmake_check_build_system
+external/CMakeFiles/translator.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\importantpapka\translator\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/translator.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/CMakeFiles/translator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\importantpapka\translator\build\CMakeFiles 0
-.PHONY : src/CMakeFiles/translator.dir/rule
+.PHONY : external/CMakeFiles/translator.dir/rule
 
 # Convenience name for target.
-translator: src/CMakeFiles/translator.dir/rule
+translator: external/CMakeFiles/translator.dir/rule
 .PHONY : translator
 
 # clean rule for target.
-src/CMakeFiles/translator.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\translator.dir\build.make src/CMakeFiles/translator.dir/clean
-.PHONY : src/CMakeFiles/translator.dir/clean
+external/CMakeFiles/translator.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external\CMakeFiles\translator.dir\build.make external/CMakeFiles/translator.dir/clean
+.PHONY : external/CMakeFiles/translator.dir/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/translator_app.dir
+# Target rules for target external/CMakeFiles/translator_app.dir
 
 # All Build rule for target.
-src/CMakeFiles/translator_app.dir/all: src/CMakeFiles/translator.dir/all
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\translator_app.dir\build.make src/CMakeFiles/translator_app.dir/depend
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\translator_app.dir\build.make src/CMakeFiles/translator_app.dir/build
+external/CMakeFiles/translator_app.dir/all: external/CMakeFiles/translator.dir/all
+	$(MAKE) $(MAKESILENT) -f external\CMakeFiles\translator_app.dir\build.make external/CMakeFiles/translator_app.dir/depend
+	$(MAKE) $(MAKESILENT) -f external\CMakeFiles\translator_app.dir\build.make external/CMakeFiles/translator_app.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\importantpapka\translator\build\CMakeFiles --progress-num=3,4 "Built target translator_app"
-.PHONY : src/CMakeFiles/translator_app.dir/all
+.PHONY : external/CMakeFiles/translator_app.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/translator_app.dir/rule: cmake_check_build_system
+external/CMakeFiles/translator_app.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\importantpapka\translator\build\CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/translator_app.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/CMakeFiles/translator_app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\importantpapka\translator\build\CMakeFiles 0
-.PHONY : src/CMakeFiles/translator_app.dir/rule
+.PHONY : external/CMakeFiles/translator_app.dir/rule
 
 # Convenience name for target.
-translator_app: src/CMakeFiles/translator_app.dir/rule
+translator_app: external/CMakeFiles/translator_app.dir/rule
 .PHONY : translator_app
 
 # clean rule for target.
-src/CMakeFiles/translator_app.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\translator_app.dir\build.make src/CMakeFiles/translator_app.dir/clean
-.PHONY : src/CMakeFiles/translator_app.dir/clean
+external/CMakeFiles/translator_app.dir/clean:
+	$(MAKE) $(MAKESILENT) -f external\CMakeFiles\translator_app.dir\build.make external/CMakeFiles/translator_app.dir/clean
+.PHONY : external/CMakeFiles/translator_app.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
