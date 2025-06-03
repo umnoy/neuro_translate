@@ -1,0 +1,10 @@
+^C:\IMPORTANTPAPKA\TRANSLATOR\BUILD\CMAKEFILES\F5BAE32437008E3569F9C76354FE02EC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\mingw64\bin\cmake.exe" -SC:/importantpapka/translator -BC:/importantpapka/translator/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/importantpapka/translator/build/translator.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

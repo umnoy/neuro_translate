@@ -1,12 +1,18 @@
 cmake_minimum_required(VERSION 3.16)
-project(translator)
+project(translator LANGUAGES CXX)
 
+# Устанавливаем стандарт C++17
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-if(DEFINED ENV{VCPKG_ROOT})
-    set(CMAKE_TOOLCHAIN_FILE "$ENV{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake"
-        CACHE STRING "")
+# Путь к ONNX Runtime
+set(ONNXRUNTIME_ROOT "C:/importantpapka/onnxruntime-win-x64-1.17.1")
+include_directories(${ONNXRUNTIME_ROOT}/include)
+link_directories(${ONNXRUNTIME_ROOT}/lib)
+
+# Подключаем поддиректории
+add_subdirectory(src)
+# Подключаем test только если папка существует и содержит CMakeLists.txt
+if(EXISTS "${CMAKE_SOURCE_DIR}/test/CMakeLists.txt")
+    add_subdirectory(test)
 endif()
-
-add_subdirectory(src external)
-add_subdirectory(test)

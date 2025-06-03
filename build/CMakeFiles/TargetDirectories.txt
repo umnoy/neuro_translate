@@ -1,8 +1,4 @@
-C:/importantpapka/translator/build/CMakeFiles/edit_cache.dir
-C:/importantpapka/translator/build/CMakeFiles/rebuild_cache.dir
-C:/importantpapka/translator/build/external/CMakeFiles/translator.dir
-C:/importantpapka/translator/build/external/CMakeFiles/translator_app.dir
-C:/importantpapka/translator/build/external/CMakeFiles/edit_cache.dir
-C:/importantpapka/translator/build/external/CMakeFiles/rebuild_cache.dir
-C:/importantpapka/translator/build/test/CMakeFiles/edit_cache.dir
-C:/importantpapka/translator/build/test/CMakeFiles/rebuild_cache.dir
+C:/importantpapka/translator/build/CMakeFiles/ALL_BUILD.dir
+C:/importantpapka/translator/build/CMakeFiles/ZERO_CHECK.dir
+C:/importantpapka/translator/build/src/CMakeFiles/neural_translator.dir
+C:/importantpapka/translator/build/src/CMakeFiles/translator_app.dir
