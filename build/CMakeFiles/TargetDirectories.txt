@@ -1,4 +1,0 @@
-C:/importantpapka/translator/build/CMakeFiles/ALL_BUILD.dir
-C:/importantpapka/translator/build/CMakeFiles/ZERO_CHECK.dir
-C:/importantpapka/translator/build/src/CMakeFiles/neural_translator.dir
-C:/importantpapka/translator/build/src/CMakeFiles/translator_app.dir
